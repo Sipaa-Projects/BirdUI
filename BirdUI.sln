@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BirdUI.Sample", "BirdUI.Sample\BirdUI.Sample.csproj", "{102E9858-DC4E-4020-8B23-569E96C6C756}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bird", "Bird\Bird.csproj", "{F4E005DA-831C-4CFE-AABC-89E605DCDBC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{B0FC48EB-159D-4B23-A618-F2FDF32E8704}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bird.Platform.Win32", "Bird.Platform.Win32\Bird.Platform.Win32.csproj", "{3C711F75-61B5-4F9D-AE3F-270C6A517709}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Éléments de solution", "Éléments de solution", "{3A527587-E4C3-4B27-864C-370B958D281F}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.txt = LICENSE.txt
+		README.fr.md = README.fr.md
+		README.md = README.md
+		Screenshot.png = Screenshot.png
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{102E9858-DC4E-4020-8B23-569E96C6C756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{102E9858-DC4E-4020-8B23-569E96C6C756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{102E9858-DC4E-4020-8B23-569E96C6C756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{102E9858-DC4E-4020-8B23-569E96C6C756}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E005DA-831C-4CFE-AABC-89E605DCDBC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E005DA-831C-4CFE-AABC-89E605DCDBC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E005DA-831C-4CFE-AABC-89E605DCDBC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E005DA-831C-4CFE-AABC-89E605DCDBC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C711F75-61B5-4F9D-AE3F-270C6A517709}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C711F75-61B5-4F9D-AE3F-270C6A517709}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C711F75-61B5-4F9D-AE3F-270C6A517709}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C711F75-61B5-4F9D-AE3F-270C6A517709}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C711F75-61B5-4F9D-AE3F-270C6A517709} = {B0FC48EB-159D-4B23-A618-F2FDF32E8704}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48D05E82-5766-4C63-9C6F-5F99D2942E50}
+	EndGlobalSection
+EndGlobal
