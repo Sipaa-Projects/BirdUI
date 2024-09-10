@@ -56,7 +56,6 @@ internal class Program
     {
         Console.WriteLine("Hello, World!");
 
-        // Create and show multiple windows using the shared context
         //AddWindow();
         //AddWindow();
 
